@@ -23,10 +23,6 @@ Public Class Form1
         Close()
     End Sub
 
-    Private Sub ContextMenuStrip1_Opening(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles ContextMenuStrip1.Opening
-
-    End Sub
-
     Private Sub AleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AleToolStripMenuItem.Click
         MsgBox("Opa")
     End Sub
